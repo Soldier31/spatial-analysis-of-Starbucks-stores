@@ -3,7 +3,7 @@ Visualizing Starbucks Store Density
 Steven Liu
 
 -   [Introduction](#introduction)
--   [Import](#import)
+-   [Import](import/import.md)
     -   [Loading data](#loading-data)
     -   [Data structure and content](#data-structure-and-content)
 -   [Tidy](#tidy)
