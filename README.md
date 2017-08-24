@@ -6,7 +6,7 @@ Steven Liu
 -   [Import](import/import.md)
     -   Loading data
     -   Data structure and content
--   [Tidy](#tidy)
+-   [Tidy](tidy/tidy.md)
 -   [Explore](#explore)
     -   Business Model
     -   Spatial Analysis
