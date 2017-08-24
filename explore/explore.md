@@ -69,7 +69,7 @@ world_base <- ggplot(world) +
 world_base
 ```
 
-![world_base][world_base.png]
+![world_base](world_base.png)
 
 This next part is a bit tricky. As we mentioned earlier, each region in our dataset is given in ISO 3166-1 alpha-2 codes, which are two-letter country codes. To plot our count of stores in each country, we need to get these codes in their names so we can join it with our `world` dataset to get the `group` information. The `group` argument controls whether adjacent points should be connected by lines. Regions in the same `group` will be connected and regions in a different `group` will not be connected. Essentially, it informs `ggplot` which regions should be connected together. Here's how we will approach this:
 
@@ -141,7 +141,7 @@ world_base +
   no_axes
 ```
 
-![world][world.png]
+![world](world.png)
 
 The U.S. and China are Starbucks two largest markets. Let's explore each of these in turn:
 
