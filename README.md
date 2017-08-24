@@ -4,15 +4,15 @@ Steven Liu
 
 -   [Introduction](#introduction)
 -   [Import](import/import.md)
-    -   [Loading data](#loading-data)
-    -   [Data structure and content](#data-structure-and-content)
+    -   Loading data
+    -   Data structure and content
 -   [Tidy](#tidy)
 -   [Explore](#explore)
-    -   [Business Model](#business-model)
-    -   [Spatial Analysis](#spatial-analysis)
-        -   [Global Scale](#global-scale)
-        -   [Regional Scale](#regional-scale)
-    -   [Reserve Roastery Locations](#reserve-roastery-locations)
+    -   Business Model
+    -   Spatial Analysis
+        -   Global Scale
+        -   Regional Scale
+    -   Reserve Roastery Locations
 
 Introduction
 ============
