@@ -23,4 +23,4 @@ The coffee industry is well aware of this growing trend and each company has ado
 
 In this analysis, we will visualize the density of Starbucks Store Locations.
 
-**still a work in progress, will push new updates when ready**
+**Please note that this is a work in progress. I believe there is still a lot we can learn from this dataset and I will push new updates as I continue to learn more about spatial analysis.**
