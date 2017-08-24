@@ -18,7 +18,7 @@ ggplot(sbux_stores, mapping = aes(store_type)) +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-9-1.png" style="display: block; margin: auto;" />
+![business_model](business_model.png)
 
 Starbucks generates revenue mainly through its company-owned stores and licensed stores with a small percentage of revenue from consumer packaged goods and foodservice. According to the Starbucks 2016 Form 10K, stores accounted for roughly ~89% of total net revenue. Starbucks has two types of stores:
 
@@ -69,7 +69,7 @@ world_base <- ggplot(world) +
 world_base
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-11-1.png" style="display: block; margin: auto;" />
+![world_base][world_base.png]
 
 This next part is a bit tricky. As we mentioned earlier, each region in our dataset is given in ISO 3166-1 alpha-2 codes, which are two-letter country codes. To plot our count of stores in each country, we need to get these codes in their names so we can join it with our `world` dataset to get the `group` information. The `group` argument controls whether adjacent points should be connected by lines. Regions in the same `group` will be connected and regions in a different `group` will not be connected. Essentially, it informs `ggplot` which regions should be connected together. Here's how we will approach this:
 
@@ -141,7 +141,7 @@ world_base +
   no_axes
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-15-1.png" style="display: block; margin: auto;" />
+![world][world.png]
 
 The U.S. and China are Starbucks two largest markets. Let's explore each of these in turn:
 
@@ -178,7 +178,7 @@ us_base <- ggplot(states) +
 us_base
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-16-1.png" style="display: block; margin: auto;" />
+![us_base](us_base.png)
 
 We will take a similar approach with our U.S. map as we did with our global map.
 
@@ -231,7 +231,7 @@ us_base +
   no_axes
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-19-1.png" style="display: block; margin: auto;" />
+![us][us.png]
 
 The density of Starbucks stores is the highest on the West Coast, led by California, Washington and Oregon. In general, there appear to be more stores along the coast compared to the U.S. interior and is part of a growing trend of coastal elite states that generate much of U.S. economic activity and wealth. These regions create a high demand for innovation for which the rewards are high. In turn, this attracts more innovative workers and companies to the area who want to work with like-minded peers. As a result, talent and high-paying jobs tend to be concentrated in these areas. By opening more stores along the coast, Starbucks is strategically poised to capture the wealth created in these states. States in the interior U.S. however may pose an opportunity for potential future growth although there are a number of associated risks and issues which include:
 
@@ -264,7 +264,7 @@ ggplot(city, aes(reorder(City, Count), Count)) +
   theme(plot.title = element_text(hjust = 0.5))
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-22-1.png" style="display: block; margin: auto;" />
+![city][city.png]
 
 In Shanghai alone, there are a staggering 542 stores which is 163 more stores than Seoul, the second most numerous stores per city. This attests to the importance of the China/Asia market in Starbucks long term growth strategy. The Americas are also well represented in our graph, demonstrating the maturity of the Americas market.
 
