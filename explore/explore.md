@@ -241,6 +241,25 @@ The density of Starbucks stores is the highest on the West Coast, led by Califor
 
 As you can see, the U.S. market is already fairly tight and future success depends on cultivating and retaining customers rather than growth.
 
+### California
+
+We will peel back another layer and explore our largest U.S. market, California, which has roughly 2,800 stores. To avoid overplotting our points, we will use the handy `facet_wrap()` function to separate the stores by type:
+
+``` r
+ca_stores <- sbux_stores %>%
+  filter(state == "CA")
+
+ca <- get_map("california", zoom = 6, maptype = "roadmap")
+ggmap(ca) +
+  geom_point(data = ca_stores, aes(lon, lat, color = store_type), size = 2, alpha = 0.5, position = "jitter") +
+  facet_wrap(~ store_type) +
+  theme_minimal()
+```
+
+<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
+
+The distribution of Starbucks stores is approximately the same for both company-owned and licensed stores. They are heavily concentrated in metropolitan areas such as the Bay Area, Los Angeles and San Diego. Starbucks has a significantly smaller footprint in the upper-north and central regions, presumably due to a lower population in these areas. It is also interesting to note that in some areas, we can overlay Starbucks stores over a major interstate. For example, we see multiple Starbucks stores along Highway 99 which connects Sacramento and Bakersfield. Likewise, there are a chain of Starbucks stores along Highway 101, which links the Bay Area and Los Angeles. This speaks to the grab-and-go style of coffee that Starbucks is attempting to buck today. What better way to capitalize on long-distance drivers and travelers than strategically placing coffee stores along the highway where they can get some caffeine to keep them up for the drive?
+
 Reserve Roastery Locations
 --------------------------
 
