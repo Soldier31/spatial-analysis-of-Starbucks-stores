@@ -12,6 +12,7 @@ Steven Liu
     -   Spatial Analysis
         -   Global Scale
         -   Regional Scale
+        -   California
     -   Reserve Roastery Locations
 
 Introduction
