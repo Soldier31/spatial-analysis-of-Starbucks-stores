@@ -256,7 +256,7 @@ ggmap(ca) +
   theme_minimal()
 ```
 
-<img src="starbucks_store_locations_files/figure-markdown_github-ascii_identifiers/unnamed-chunk-20-1.png" style="display: block; margin: auto;" />
+![unnamed-chunk-20-1](unnamed-chunk-20-1.png)
 
 The distribution of Starbucks stores is approximately the same for both company-owned and licensed stores. They are heavily concentrated in metropolitan areas such as the Bay Area, Los Angeles and San Diego. Starbucks has a significantly smaller footprint in the upper-north and central regions, presumably due to a lower population in these areas. It is also interesting to note that in some areas, we can overlay Starbucks stores over a major interstate. For example, we see multiple Starbucks stores along Highway 99 which connects Sacramento and Bakersfield. Likewise, there are a chain of Starbucks stores along Highway 101, which links the Bay Area and Los Angeles. This speaks to the grab-and-go style of coffee that Starbucks is attempting to buck today. What better way to capitalize on long-distance drivers and travelers than strategically placing coffee stores along the highway where they can get some caffeine to keep them up for the drive?
 
