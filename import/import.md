@@ -15,7 +15,7 @@ library(mapdata)
 Loading data
 ------------
 
-The [dataset](https://www.kaggle.com/starbucks/store-locations) is publically available on kaggle and was scraped from the Starbucks store locator webpage by Github user [chrismeller](https://github.com/chrismeller/).
+The [dataset](https://www.kaggle.com/starbucks/store-locations) is publicly available on kaggle and was scraped from the Starbucks store locator webpage by Github user [chrismeller](https://github.com/chrismeller/).
 
 ``` r
 sbux_stores <- read_csv("directory.csv")
